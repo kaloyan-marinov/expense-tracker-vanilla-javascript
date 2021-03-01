@@ -4,9 +4,5 @@ Keep track of income and expenses. Add and remove items and save to local storag
 
 ## Project Specifications
 
-- Create UI for project
-- Display transaction items in DOM
-- Show balance, expense and income totals
-- Add new transation and reflect in total
-- Delete items from DOM
-- Persist to local storage
+- Break everything up into React components
+- Use the Context API (have a global state, and pass everything down to the components; basically, put all transactions in the global state, pass the transaction down to the components, and do any calculations inside the components)
